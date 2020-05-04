@@ -32,6 +32,8 @@ const App = () => {
   return (
     <Container fluid>
       <h1>Todo With Local Storage</h1>
+      <br />
+      <br />
       <Todos todo={todo} markComplete={markComplete} />
       <TodoForm addTodos={addTodos} />
     </Container>
